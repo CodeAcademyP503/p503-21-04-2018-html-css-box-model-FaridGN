@@ -1,0 +1,190 @@
+#gallery{
+    height: 450px;
+    position: relative;
+    top: 380px;
+    margin: 0px auto;
+    #galtitle{
+        font-size: 20px;
+        text-align: center;
+    }
+    #pictures{
+        width: 1200px;
+        height:424px;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto;
+        grid-gap: 0px;
+        >div{
+            border: 0px solid black;
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+            &:nth-child(2){
+                grid-column-start: 2;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+            &:nth-child(5){
+                grid-column-start: 6;
+                grid-column-end: 8;
+                grid-row-start: 1;
+                grid-row-end: 3; 
+            }
+            &:nth-child(11){
+                grid-column-start:1;
+                grid-column-end: 3;
+                grid-row-start: 3;
+                grid-row-end: 5; 
+        }
+        &:nth-child(13){
+            grid-column-start:4;
+            grid-column-end: 6;
+            grid-row-start: 3;
+            grid-row-end: 5; 
+        }
+        &:nth-child(15){
+            grid-column-start:7;
+            grid-column-end: 9;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+    }
+}
+#arrow05{
+    width: 155px;
+    height: 75px;
+    position:relative;
+    top:48px;
+    margin: 0px auto;
+    text-align: center;
+    img{
+        position: relative;
+        top: 0px;
+    }
+    i{
+        position: absolute;
+        top: 28px;
+        left: 72px;
+        color: white;
+        font-size:20px;
+        font-weight: bold;
+    }
+    }
+    #social{
+        position:relative;
+        top: 26px;
+        width: 100%;
+        height: 70px;
+        background-color: #42b773;
+        #icons{
+            width: 500px;
+            text-align:center;
+            margin: 15px auto;
+        .socicon{
+            width: 40px;
+            height: 40px;
+             font-size: 22px;
+             float: left;
+             margin-left: 20px;
+             margin-right: 20px;
+             line-height:40px;
+             margin-top:20px;
+             color: white;
+             border-radius: 50%;
+             &:hover{
+                background-color: lightgreen;
+             }
+        }
+    }
+    }
+}
+#contact{
+        position: relative;
+        top: 650px;
+        width: 100%;
+        #contactinfo{
+            width: 1200px;
+            margin: 0px auto;
+            text-align: center;
+            word-spacing: 22px;
+            h1{
+                font-size:30px;
+            }
+            p{
+                font-size:20px;
+                color:#42b773;
+                font-weight: bold;
+            }
+        }
+    #form{
+        position: relative;
+        top: 10px;
+        width: 1110px;
+        height: 130px;
+        margin: 0px auto;
+        .inputs{
+            width:370px;
+            height:45px;
+            float:left;
+               input[type="text"]{
+                   width: 320px;
+                   height: 40px;
+                   margin-left: 20px;
+                   border: 1px solid gray;
+                   border-radius: 3%;
+               }
+        }
+        .message{
+            position: relative;
+            top:15px;
+            width:100%;
+            height:120px;
+            margin: 20px auto;
+               input[type="textbox"]{
+                   width: 1060px;
+                   height: 100px;
+                   margin: 10px 17px;
+               }
+        }  
+        .btn{
+             width: 100%;
+             height: 70px;
+             text-align: center;
+          button{
+              width: 220px;
+              height: 55px;
+              background-color:#42b773;
+              border-radius: 10px;
+              color: white;
+              cursor: pointer;
+              &:hover{
+                  background-color: lightgreen;
+              }
+          }
+        }
+       
+            }
+            #arrow07{
+                position: relative;
+                top: 150px;
+                width: 100px;
+                height: 90px;
+                margin: 0px auto;
+            i{
+                position: absolute;
+                top: 28px;
+                left: 45px;
+                color: #42b773;
+                font-size:20px;
+                font-weight: bold;
+            }
+        }   
+            
+          }
+
+          .clear{
+              clear: both;
+          }

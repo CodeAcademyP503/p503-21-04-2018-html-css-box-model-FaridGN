@@ -1,0 +1,527 @@
+#navbar {
+  position: sticky;
+  top: 0px;
+  background-color: transparent;
+  height: 80px;
+  margin-top: 55px;
+}
+#navbar #logo {
+  margin-top: 5px;
+  margin-left: 40px;
+  float: left;
+  height: 60px;
+}
+#navbar #menu {
+  width: 750px;
+  float: right;
+  margin-top: 10px;
+}
+#navbar #menu ul {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+#navbar #menu ul li {
+  line-height: 42px;
+  list-style: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 30px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+#navbar #menu ul li i {
+  color: #9c9999;
+  margin-left: 10px;
+}
+#navbar #menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+#navbar #menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.home {
+  color: Green;
+}
+
+#imagebar {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-image: url(../images/main.jpg);
+  background-position: absolute;
+  left: 0px;
+  top: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+#imagebar #arrow01 {
+  width: 145px;
+  height: 75px;
+  margin: 0px auto;
+  position: relative;
+  top: 360px;
+}
+#imagebar #arrow01 img {
+  position: relative;
+  top: 0px;
+}
+#imagebar #arrow01 i {
+  position: absolute;
+  top: 35px;
+  left: 72px;
+  color: #42b773;
+  font-size: 20px;
+}
+#imagebar button {
+  padding: 20px 70px;
+  box-sizing: border-box;
+  color: white;
+  background: linear-gradient(to right, #339933 0%, #66ff33 100%);
+  border-radius: 10px;
+  border: 0px solid green;
+  text-align: center;
+  font-weight: bold;
+  margin: 15px auto;
+  cursor: pointer;
+}
+
+#intro {
+  margin-top: 245px;
+}
+#intro h1 {
+  text-align: center;
+  font-size: 44px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 25px;
+  text-shadow: -1px 0 lightgray, 0 1px lightgray, 1px 0 lightgray, 0 -1px lightgray;
+}
+#intro h2 {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  line-height: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-shadow: -1px 0 lightgray, 0 1px lightgray, 1px 0 lightgray, 0 -1px lightgray;
+}
+#intro p {
+  line-height: 5px;
+  color: white;
+}
+
+.secsent {
+  text-align: center;
+}
+
+.firsent {
+  text-align: center;
+}
+
+#divs {
+  height: 390px;
+}
+
+.circle {
+  width: 136px;
+  height: 132px;
+  border: 2px solid #c0bdbd;
+  border-radius: 50%;
+  position: relative;
+  top: 385px;
+  left: 50px;
+  margin-top: 28px;
+  margin-left: 15px;
+  float: left;
+}
+.circle p {
+  text-align: center;
+  line-height: 63px;
+  font-size: 35px;
+  color: #c0bdbd;
+}
+.circle:hover {
+  background-color: #2ff02f;
+}
+
+.contents {
+  width: 405px;
+  position: relative;
+  top: 385px;
+  left: 65px;
+  margin: 28px auto;
+  float: left;
+}
+.contents h2 {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+.contents h2 a {
+  text-decoration: none;
+  color: #24b824;
+}
+.contents p {
+  line-height: 20px;
+  color: #999393;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.clear {
+  clear: both;
+}
+
+#arrow02 {
+  width: 155px;
+  height: 75px;
+  position: relative;
+  top: 388px;
+  margin: 0px auto;
+}
+#arrow02 img {
+  position: relative;
+  top: 0px;
+}
+#arrow02 i {
+  position: absolute;
+  top: 48px;
+  left: 72px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#gallery {
+  height: 450px;
+  position: relative;
+  top: 380px;
+  margin: 0px auto;
+}
+#gallery #galtitle {
+  font-size: 20px;
+  text-align: center;
+}
+#gallery #pictures {
+  width: 1200px;
+  height: 424px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+  grid-gap: 0px;
+}
+#gallery #pictures > div {
+  border: 0px solid black;
+}
+#gallery #pictures > div img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#gallery #pictures > div:nth-child(2) {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+#gallery #pictures > div:nth-child(5) {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+#gallery #pictures > div:nth-child(11) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+#gallery #pictures > div:nth-child(13) {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+#gallery #pictures > div:nth-child(15) {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+#gallery #arrow05 {
+  width: 155px;
+  height: 75px;
+  position: relative;
+  top: 48px;
+  margin: 0px auto;
+  text-align: center;
+}
+#gallery #arrow05 img {
+  position: relative;
+  top: 0px;
+}
+#gallery #arrow05 i {
+  position: absolute;
+  top: 28px;
+  left: 72px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+#gallery #social {
+  position: relative;
+  top: 26px;
+  width: 100%;
+  height: 70px;
+  background-color: #42b773;
+}
+#gallery #social #icons {
+  width: 500px;
+  text-align: center;
+  margin: 15px auto;
+}
+#gallery #social #icons .socicon {
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 40px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 50%;
+}
+#gallery #social #icons .socicon:hover {
+  background-color: lightgreen;
+}
+
+#contact {
+  position: relative;
+  top: 650px;
+  width: 100%;
+}
+#contact #contactinfo {
+  width: 1200px;
+  margin: 0px auto;
+  text-align: center;
+  word-spacing: 22px;
+}
+#contact #contactinfo h1 {
+  font-size: 30px;
+}
+#contact #contactinfo p {
+  font-size: 20px;
+  color: #42b773;
+  font-weight: bold;
+}
+#contact #form {
+  position: relative;
+  top: 10px;
+  width: 1110px;
+  height: 130px;
+  margin: 0px auto;
+}
+#contact #form .inputs {
+  width: 370px;
+  height: 45px;
+  float: left;
+}
+#contact #form .inputs input[type="text"] {
+  width: 320px;
+  height: 40px;
+  margin-left: 20px;
+  border: 1px solid gray;
+  border-radius: 3%;
+}
+#contact #form .message {
+  position: relative;
+  top: 15px;
+  width: 100%;
+  height: 120px;
+  margin: 20px auto;
+}
+#contact #form .message input[type="textbox"] {
+  width: 1060px;
+  height: 100px;
+  margin: 10px 17px;
+}
+#contact #form .btn {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+#contact #form .btn button {
+  width: 220px;
+  height: 55px;
+  background-color: #42b773;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+#contact #form .btn button:hover {
+  background-color: lightgreen;
+}
+#contact #arrow07 {
+  position: relative;
+  top: 150px;
+  width: 100px;
+  height: 90px;
+  margin: 0px auto;
+}
+#contact #arrow07 i {
+  position: absolute;
+  top: 28px;
+  left: 45px;
+  color: #42b773;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.clear {
+  clear: both;
+}
+
+#about {
+  height: 600px;
+  margin: 0px auto;
+  background: linear-gradient(to bottom, #42b773 0%, #a9dc57 100%);
+  position: relative;
+  top: 430px;
+}
+#about #aboutus {
+  font-size: 18px;
+  position: relative;
+  top: 50px;
+  left: 0px;
+}
+#about #aboutus h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+#about #three {
+  position: relative;
+  top: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#about .gcircles {
+  width: 380px;
+  position: relative;
+  top: 80px;
+  left: 0px;
+  float: left;
+  width: 376px;
+  margin-left: 5px;
+}
+#about .gcircles .one {
+  border: 0px solid transparent;
+  border-radius: 50%;
+  margin-left: 48px;
+}
+#about .gcircles .one img {
+  border-radius: 50%;
+}
+#about .gcircles .desc {
+  width: 355px;
+  margin-left: 5px;
+}
+#about .gcircles .desc h3 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+#about .gcircles .desc h3 a {
+  color: white;
+  text-decoration: none;
+}
+#about .gcircles .desc p {
+  text-align: center;
+  line-height: 22px;
+  color: white;
+}
+#about #arrow03 {
+  width: 155px;
+  height: 75px;
+  position: relative;
+  top: 74px;
+  margin: 0px auto;
+}
+#about #arrow03 img {
+  position: relative;
+  top: 0px;
+}
+#about #arrow03 i {
+  position: absolute;
+  top: 488px;
+  left: 72px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#services {
+  background: #f0f0f0;
+  height: 650px;
+}
+#services #service {
+  position: relative;
+  top: 490px;
+  width: 1250px;
+  margin: 0px auto;
+  display: grid;
+  height: 350px;
+  background-color: #f0f0f0;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+  grid-gap: 5px;
+}
+#services #service > div {
+  background: #f0f0f0;
+  width: 300px;
+  height: 155px;
+  text-align: center;
+}
+#services #service > div i {
+  color: #42b773;
+  font-size: 40px;
+}
+#services #service > div i :hover {
+  color: #a9dc57;
+}
+#services #servtitle {
+  font-size: 20px;
+  position: relative;
+  top: 500px;
+  background-color: #f0f0f0;
+  height: 100px;
+}
+#services #servtitle h1 {
+  text-align: center;
+}
+#services #arrow04 {
+  width: 100%;
+  height: 68px;
+  position: relative;
+  top: 490px;
+  background-color: #f0f0f0;
+  margin: 0px auto;
+  text-align: center;
+}
+#services #arrow04 img {
+  position: relative;
+  top: 0px;
+}
+#services #arrow04 .icon {
+  text-align: center;
+  margin: 225px auto;
+}
+#services #arrow04 .icon i {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
